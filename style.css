@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin-left: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 380px 325px 250px 395px ;
+    padding: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 6px;
+    font-size: 25px;
+    text-align: start;
+    
+}
+.heading{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 50px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.heading :nth-child(1){
+    padding-left: 8px;
+}
+.heading :nth-child(2){
+    padding-right: 60px;
+}
+.instruction{
+    display: flex;
+}
+.instruction span{
+    margin-right: 30px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+
+h3{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+hr{
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* questions editing stars here  */
+
+.container {
+    /* Container properties */
+    display: flex;
+}
+  
+.question {
+    /* Question properties */
+    flex: 1;
+    margin-bottom: 30px;
+}
+.question h4{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.question h4 span{
+    margin-right: 5px;
+}
+  
+.options {
+    /* Options properties */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    margin-left: 13px;
+}
+  
+.option {
+    /* Option properties */
+    background-color: #f2f2f2; 
+    padding: 10px; 
+}
+.option p span{
+    margin-right: 16px;
+}
+.gap {
+    /* Gap properties */
+    width: 50px;
+}
