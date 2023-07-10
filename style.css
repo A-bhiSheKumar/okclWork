@@ -5,9 +5,14 @@
 img{
     margin-left: 10px;
 }
+.success{
+    height: 222px;
+    width: 200px;
+    margin-left: 880px;
+}
 .grid-container {
     display: grid;
-    grid-template-columns: 380px 325px 250px 395px ;
+    grid-template-columns: 380px 325px 250px 325px ;
     padding: 10px;
     margin-left: 10px;
     padding-left: 20px;
@@ -33,7 +38,7 @@ img{
     padding-left: 8px;
 }
 .heading :nth-child(2){
-    padding-right: 60px;
+    padding-right: 0px;
 }
 .instruction{
     display: flex;
@@ -95,3 +100,9 @@ hr{
     /* Gap properties */
     width: 50px;
 }
+.vertical-line {
+    border-left: 1px dotted #000;
+    height: 150px; 
+    margin-left: 28px;
+    opacity: 20% ;
+  }
